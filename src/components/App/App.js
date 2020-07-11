@@ -21,7 +21,7 @@ function App() {
           React Scroll Example
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -29,12 +29,12 @@ function App() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
               <Link
                 activeClass="active"
                 className="test1 nav-link"
@@ -47,7 +47,7 @@ function App() {
                 Test 1
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 activeClass="active"
                 className="test2 nav-link"
@@ -60,7 +60,7 @@ function App() {
                 Test 2
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 activeClass="active"
                 className="test3 nav-link"
@@ -73,7 +73,7 @@ function App() {
                 Test 3
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 activeClass="active"
                 className="test4 nav-link"
